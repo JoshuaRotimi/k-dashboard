@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.font-open-sans {
+  font-family: 'Noto Sans Glagolitic', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer components {
+  .color-hover {
+    @apply transition-all cursor-pointer hover:text-[#EF2C5A];
+  }
+}
+
+body {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  min-height: 100vh;
+}
+
