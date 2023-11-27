@@ -9,12 +9,9 @@ const Header: React.FC<SidebarProps> = ({ showSidebar, setShowSidebar }) => {
       <div>
         {!showSidebar && (
           <button
-            className="border-2 border-[#0A0A0A] rounded-md
-           px-4 py-2 w-[120px] text-xs text-[#0A0A0A]"
-            onClick={() => {
-              setShowSidebar(true);
-              console.log(showSidebar);
-            }}
+            className="border border-[#0A0A0A] rounded-md
+           px-4 py-2 w-[120px] text-xs text-[#0A0A0A] hover:font-semibold transition"
+            onClick={() => setShowSidebar(true)}
           >
             Show Panel
           </button>

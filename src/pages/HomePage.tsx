@@ -34,8 +34,8 @@ const HomePage = () => {
   return (
     <div className="w-[95%] m-auto mt-14">
       <h4 className="font-open-sans text-xl pb-8">Sales Overview</h4>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div className="border border-black rounded-lg font-open-sans p-6 max-w-[250px] min-h-[240px]">
+      <div className="grid place-items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
+        <div className="border border-black rounded-lg font-open-sans p-6 w-[250px] min-h-[240px]">
           <p className="text-sm py-2">Today's sales</p>
           <p className="text-xl">₦1,652.50</p>
         </div>
@@ -65,7 +65,7 @@ const HomePage = () => {
           <FaArrowDown className="hidden lg:flex" size={16} /> Download report
         </button>
       </div>
-      <div className="flex justify-between flex-col pb-2 lg:flex-row gap-3">
+      <div className="flex justify-between flex-col pb-2 xl:flex-row gap-3">
         <img src={chart} alt="Visual Report" />
         <div
           className={`bg-[#EF2C5A] p-3 py-8 flex flex-col justify-between

@@ -48,7 +48,7 @@ const Transactions = () => {
                 className={`w-8 h-8 hover:text-black bg-white
                  hover:bg-[#F0F0F0] hover:rounded-full ${
                    selected === item
-                     ? "bg-[#E8E8E8] rounded-full text-black"
+                     ? "bg-gray-300 rounded-full text-black"
                      : "text-[#A39D9E]"
                  }`}
               >

@@ -77,7 +77,8 @@ const Sidebar: React.FC<SidebarProps> = ({ showSidebar, setShowSidebar }) => {
             </button>
             <button
               onClick={() => setShowSidebar(false)}
-              className="flex items-center gap-2 border-2 border-[#0A0A0A] rounded-md px-4 py-2 w-[120px] text-xs text-[#0A0A0A]"
+              className="flex items-center gap-2 border border-[#0A0A0A] rounded-md px-4
+              py-2 w-[120px] text-xs text-[#0A0A0A] hover:font-semibold transition"
             >
               <IoIosArrowBack size={14} /> Hide Panel
             </button>

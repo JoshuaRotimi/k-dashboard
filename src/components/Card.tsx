@@ -10,7 +10,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ time, amount, bg, image, range }) => {
   return (
     <div
-      className={`border border-black rounded-lg font-open-sans p-6 max-w-[250px] min-h-[240px] ${
+      className={`border border-black rounded-lg font-open-sans p-6 w-[250px] min-h-[240px] ${
         bg ? "bg-black" : "bg-white"
       } ${bg ? "text-white" : "text-black"}`}
     >
