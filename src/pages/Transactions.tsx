@@ -17,7 +17,7 @@ const Transactions = () => {
           <input
             type="text"
             placeholder={"Search"}
-            className={"border-0 h-[20px]"}
+            className={"border-0 h-[30px] outline-none"}
           />
           <IoIosSearch size={24} />
         </div>
