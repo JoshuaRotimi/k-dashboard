@@ -32,7 +32,7 @@ const dashboard = [
 
 const HomePage = () => {
   return (
-    <div className="w-[90%] m-auto mt-14">
+    <div className="w-[95%] m-auto mt-14">
       <h4 className="font-open-sans text-xl pb-8">Sales Overview</h4>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="border border-black rounded-lg font-open-sans p-6 max-w-[250px] min-h-[240px]">
@@ -65,11 +65,11 @@ const HomePage = () => {
           <FaArrowDown className="hidden lg:flex" size={16} /> Download report
         </button>
       </div>
-      <div className="flex flex-col pb-2 lg:flex-row gap-3">
+      <div className="flex justify-between flex-col pb-2 lg:flex-row gap-3">
         <img src={chart} alt="Visual Report" />
         <div
           className={`bg-[#EF2C5A] p-3 py-8 flex flex-col justify-between
-               rounded-lg max-w-[350px] bg-[url('/lines.svg')] bg-no-repeat bg-cover`}
+               rounded-lg max-w-[305px] bg-[url('/lines.svg')] bg-no-repeat bg-cover`}
         >
           <h5 className="text-base lg:text-xl w-[80%] text-white">
             KlashaWire - send money to businesses globally from Africa

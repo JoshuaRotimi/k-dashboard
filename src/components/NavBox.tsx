@@ -11,7 +11,7 @@ const NavBox: React.FC<NavBoxProps> = ({ name, icon: Icon }) => {
   return (
     <>
       <NavLink
-        to={`/${name}`}
+        to={name === "dashboard" ? `/` : `/${name}`}
         className={({ isActive }) =>
           isActive
             ? "flex items-center my-3 gap-4 p-1 px-2 color-hover text-[#EF2C5A]"

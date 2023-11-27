@@ -41,7 +41,7 @@ const Sidebar: React.FC<SidebarProps> = ({ showSidebar, setShowSidebar }) => {
           className="hidden lg:grid grid-rows-[auto-1fr-auto]
          h-screen bg-[#FFFBF7] w-[300px] px-12 py-6 transition-all"
         >
-          <div>
+          <div className="px-2">
             <img src={logo} alt="Klasha Dashboard" />
           </div>
           <div className="flex flex-col gap-2">

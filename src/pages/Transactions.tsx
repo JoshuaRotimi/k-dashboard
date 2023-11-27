@@ -8,7 +8,6 @@ import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 const Transactions = () => {
   const pages = ["1", "2", "3", "...", "8", "9", "10"];
   const [selected, setSelected] = useState("1");
-  console.log(selected);
 
   return (
     <div className="w-[95%] m-auto mt-24 border border-[#F0F0F0] rounded-lg py-3 overflow-x-auto">
@@ -49,7 +48,7 @@ const Transactions = () => {
                 className={`w-8 h-8 hover:text-black bg-white
                  hover:bg-[#F0F0F0] hover:rounded-full ${
                    selected === item
-                     ? "bg-[#F0F0F0] rounded-full text-black"
+                     ? "bg-[#E8E8E8] rounded-full text-black"
                      : "text-[#A39D9E]"
                  }`}
               >
